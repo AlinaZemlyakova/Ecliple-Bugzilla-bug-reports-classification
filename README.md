@@ -5,6 +5,6 @@ The paper considers the problem of multiclass classification of customer request
 ## This repository contains the following files:
 - bugzilla-load.py - web-parser for fetching basic information from Eclipse Bugzilla; to get up-to-date bug reports, run the code after changing end_bug_number to 600.000 or more
 - eclipse_all_bugs.csv.zip - an ultimate dataset of all Eclipse bug reports till May 31, 2023
-- preprocessing_EDA.ipynb - basic preprocessing and EDA
+- preprocess_EDA.ipynb - basic preprocessing and EDA
 - baseline_logreg.ipynb - building the most basic model
 - cleaning_tuning.ipynb - all the experiments with data cleaning, text vectorization, other models
